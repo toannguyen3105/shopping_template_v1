@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Shopping online</title>
+</head>
+
+<body>
+    <div class="box-container">
+        <div class="order">
+            <form id="form">
+                <h2 class="heading">Restaurant</h2>
+
+                <div class="inputBox">
+                    <p class="sub-heading">Pizza</p>
+                    <input type="checkbox" id="pepperoni" name="product" value="10">
+                    <label for="pepperoni">Pepperoni - $10</label><br>
+                    <input type="checkbox" id="margherita" name="product" value="9" checked>
+                    <label for="margherita">Margherita - $9</label><br>
+                    <input type="checkbox" id="vegetable" name="product" value="8">
+                    <label for="vegetable">Pepperoni - $8</label><br>
+                </div>
+
+                <div class="inputBox">
+                    <p class="sub-heading">Drink</p>
+                    <input type="checkbox" id="soda" name="product" value="2" checked>
+                    <label for="soda">Soda - $2</label><br>
+                    <input type="checkbox" id="juice" name="product" value="3" checked>
+                    <label for="juice">Juice - $3</label><br>
+                    <input type="checkbox" id="none" name="product" value="0">
+                    <label for="none">None</label><br>
+                </div>
+
+                <input type="button" value="Submit" id="cal-btn"
+                    style="background-color: #333; color: #fff; padding: 5px 10px;">
+
+                <div class="total_price">
+                    Total Price = <span id="price" class="price" style="font-weight: bolder; color: white;">14$</span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
